@@ -7,6 +7,7 @@ int main(){
     //implemented using bst 
     //sorted order mei element return hote hai 
     //unordered set is faster than slow because unordered mei random order mei aata hai 
+    //advance(iterator, steps) used for iterating till certain index it is really helpfull
 
 
 
