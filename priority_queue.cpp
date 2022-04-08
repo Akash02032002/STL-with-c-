@@ -8,7 +8,7 @@ int main(){
 
     priority_queue<int> s; //maxheap
 
-    priority_queue< int,vector<int>,greater<int> > mini;
+    priority_queue< int,vector<int>,greater<int> > mini;//minheap
 
     s.push(1);
     s.push(3);
