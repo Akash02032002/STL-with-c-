@@ -5,7 +5,7 @@ int main(){
     // key = love value = score  so love is pointing to score 
     //key is unique and 1 key 1 ko hi point kregi
     //unoredered map mei O(1) complexity hashing
-    //ordered map mei O(logn) complexity r-b or balanced tree
+    //ordered map mei O(logn) complexity r-b or balanced tree these are used
 
     map<int,string> m; //map ke case mei sorted order and unordered mei random
 
