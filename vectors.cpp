@@ -12,7 +12,11 @@ int main(){
     {
         cout<<i<<" ";
     }cout<<endl;
-
+    
+    vector<vector<int> > dp(n ,vector<int>(v , -1)); //dp[n][v] initialized with -1
+    
+    vector<int> adj[];          //adjacency list 
+ 
 
     vector<int> d(a); //a ke saare element d ke and aagaye 
     cout<<"printing d"<<endl;
