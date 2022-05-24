@@ -1,11 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std;
+//typedef pair<long long int,long long int> pi; if you want to make a minheap with v,i as index
 int main(){
 
     //first element hamesha greatest i.e max heap
     //first element hamesha smallest i.e min heap
     //by default max heap
-
+    
+    priority_queue<pi,vector<pi>,greater<pi>> mini; //this has a heap and other special place which can take long long int value
+    //mini.push(make_pair(arr[i],i));
+    
+    
+    
     priority_queue<int> s; //maxheap
 
     priority_queue< int,vector<int>,greater<int> > mini;//minheap
