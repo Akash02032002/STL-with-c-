@@ -16,7 +16,7 @@ int main(){
     m[5] = "babbar";
     m[11] = "lol";
 
-    m.insert({6,"usha"});
+    m[6] = "usha";
 
     cout<<"before erase"<<endl ;
     for(auto i: m)
